@@ -28,6 +28,7 @@ include(":core:designsystem")
 include(":core:common")
 include(":core:navigation")
 include(":core:network")
+include(":core:localstorage")
 
 // data
 include(":data")
@@ -37,3 +38,4 @@ include(":domain")
 
 // presentation
 include(":presentation:main")
+
