@@ -1,4 +1,4 @@
-package com.focpet.ui.theme
+package com.focpet.core.designsystem.theme
 
 import android.app.Activity
 import android.os.Build

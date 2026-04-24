@@ -1,4 +1,4 @@
-package com.focpet.ui.theme
+package com.focpet.core.designsystem.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
