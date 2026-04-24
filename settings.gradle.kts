@@ -22,3 +22,18 @@ dependencyResolutionManagement {
 
 rootProject.name = "Focpet"
 include(":app")
+
+// core
+include(":core:designsystem")
+include(":core:common")
+include(":core:navigation")
+include(":core:network")
+
+// data
+include(":data")
+
+// domain
+include(":domain")
+
+// presentation
+include(":presentation:main")
