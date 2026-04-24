@@ -1,4 +1,4 @@
-package com.focpet.core.network
+package com.focpet.core.network.di
 
 import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFactory
 import dagger.Module
@@ -13,7 +13,6 @@ import retrofit2.Converter
 import retrofit2.Retrofit
 import java.util.concurrent.TimeUnit
 import javax.inject.Singleton
-import kotlin.apply
 
 @Module
 @InstallIn(SingletonComponent::class)
@@ -41,7 +40,7 @@ object NetworkModule {
 
     @Provides
     @Singleton
-    fun providesConverterFactory(): Converter.Factory = Json.asConverterFactory("application/json".toMediaType())
+    fun providesConverterFactory(): Converter.Factory = Json.Default.asConverterFactory("application/json".toMediaType())
 
     @Provides
     @Singleton
