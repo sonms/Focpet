@@ -20,7 +20,8 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Focpet"
+rootProject.name = "Kindl"
+
 include(":app")
 
 // core

@@ -1,17 +1,18 @@
-package com.focpet
+package com.kindl
 
 import android.app.Application
 import androidx.appcompat.app.AppCompatDelegate
 import coil.ImageLoader
 import coil.ImageLoaderFactory
+import dagger.Lazy
 import dagger.hilt.android.HiltAndroidApp
 import timber.log.Timber
 import javax.inject.Inject
 
 @HiltAndroidApp
-class FocpetApplication: Application(), ImageLoaderFactory {
+class KindlApplication: Application(), ImageLoaderFactory {
     @Inject
-    lateinit var imageLoaderProvider: dagger.Lazy<ImageLoader>
+    lateinit var imageLoaderProvider: Lazy<ImageLoader>
 
     override fun onCreate() {
         super.onCreate()

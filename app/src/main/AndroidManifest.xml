@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
-        android:name=".FocpetApplication"
+        android:name="com.kindl.KindlApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -11,11 +11,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Focpet">
+        android:theme="@style/Theme.Kindl">
         <activity
-            android:name=".presentation.main.MainActivity"
+            android:name="com.kindl.presentation.main.MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.Focpet">
+            android:theme="@style/Theme.Kindl">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

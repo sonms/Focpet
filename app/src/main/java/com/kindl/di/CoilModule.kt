@@ -1,4 +1,4 @@
-package com.focpet.di
+package com.kindl.di
 
 import android.content.Context
 import coil.ImageLoader

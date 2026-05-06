@@ -1,8 +1,8 @@
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
-    alias(libs.plugins.focpet.android.application)
-    alias(libs.plugins.focpet.android.buildconfig)
+    alias(libs.plugins.kindl.android.application)
+    alias(libs.plugins.kindl.android.buildconfig)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.dagger.hilt)
@@ -11,11 +11,11 @@ plugins {
 }
 
 android {
-    namespace = "com.focpet"
+    namespace = "com.kindl"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.focpet"
+        applicationId = "com.kindl"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -48,6 +48,9 @@ android {
 }
 
 dependencies {
+    // core
+    implementation(projects.core.network)
+
     // presentation
     implementation(projects.presentation.main)
 
