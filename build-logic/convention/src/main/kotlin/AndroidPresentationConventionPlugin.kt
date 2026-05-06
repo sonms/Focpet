@@ -1,5 +1,5 @@
 import com.android.build.api.dsl.LibraryExtension
-import com.focpet.buildlogic.libs
+import com.kindl.buildlogic.libs
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.kotlin.dsl.configure
@@ -13,19 +13,19 @@ import org.gradle.kotlin.dsl.dependencies
  * 세 플러그인을 매번 따로 적용하지 않고 이걸 하나만 적용
  *
  * 적용되는 설정:
- * - focpet.android.library (compileSdk, minSdk, JVM 11)
- * - focpet.android.compose (Compose 활성화)
- * - focpet.hilt (Hilt 의존성)
+ * - kindl.android.library (compileSdk, minSdk, JVM 11)
+ * - kindl.android.compose (Compose 활성화)
+ * - kindl.hilt (Hilt 의존성)
  * - domain, core 모듈 의존성 자동 추가
  */
 class AndroidPresentationConventionPlugin : Plugin<Project> {
     override fun apply(target: Project) {
         with(target) {
             with(pluginManager) {
-                apply("focpet.android.library")
-                apply("focpet.android.compose")
-                apply("focpet.hilt")
-                apply("focpet.serialization")
+                apply("kindl.android.library")
+                apply("kindl.android.compose")
+                apply("kindl.hilt")
+                apply("kindl.serialization")
             }
 
             // 리소스 패키징 옵션을 설정합니다

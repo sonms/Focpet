@@ -1,4 +1,4 @@
-import com.focpet.buildlogic.configureKotlinJvm
+import com.kindl.buildlogic.configureKotlinJvm
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.kotlin.dsl.apply

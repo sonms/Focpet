@@ -116,16 +116,16 @@ android-library = { id = "com.android.library", version.ref = "agp" }
 jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "jetbrainsKotlinJvm" }
 
 # Convention Plugins
-focpet-android-application = { id = "focpet.android.application", version = "unspecified" }
-focpet-android-library = { id = "focpet.android.library", version = "unspecified" }
-focpet-android-buildconfig = { id = "focpet.android.buildconfig", version = "unspecified" }
-focpet-android-compose = { id = "focpet.android.compose", version = "unspecified" }
-focpet-android-presentation = { id = "focpet.android.presentation", version = "unspecified" }
-focpet-android-data = { id = "focpet.android.data", version = "unspecified" }
-focpet-kotlin-jvm = { id = "focpet.kotlin.jvm", version = "unspecified" }
-focpet-hilt = { id = "focpet.hilt", version = "unspecified" }
-focpet-serialization = { id = "focpet.serialization", version = "unspecified" }
-focpet-android-test = { id = "focpet.android.test", version = "unspecified" }
+kindl-android-application = { id = "kindl.android.application", version = "unspecified" }
+kindl-android-library = { id = "kindl.android.library", version = "unspecified" }
+kindl-android-buildconfig = { id = "kindl.android.buildconfig", version = "unspecified" }
+kindl-android-compose = { id = "kindl.android.compose", version = "unspecified" }
+kindl-android-presentation = { id = "kindl.android.presentation", version = "unspecified" }
+kindl-android-data = { id = "kindl.android.data", version = "unspecified" }
+kindl-kotlin-jvm = { id = "kindl.kotlin.jvm", version = "unspecified" }
+kindl-hilt = { id = "kindl.hilt", version = "unspecified" }
+kindl-serialization = { id = "kindl.serialization", version = "unspecified" }
+kindl-android-test = { id = "kindl.android.test", version = "unspecified" }
 
 [bundles]
 androidx = [
