@@ -1,7 +1,7 @@
 import com.android.build.api.dsl.ApplicationExtension
 import com.android.build.api.dsl.CommonExtension
 import com.android.build.api.dsl.LibraryExtension
-import com.focpet.buildlogic.configureBuildTypes
+import com.kindl.buildlogic.configureBuildTypes
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 

@@ -1,5 +1,5 @@
 import com.android.build.api.dsl.LibraryExtension
-import com.focpet.buildlogic.libs
+import com.kindl.buildlogic.libs
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.kotlin.dsl.configure
@@ -22,9 +22,9 @@ class AndroidDataConventionPlugin : Plugin<Project> {
     override fun apply(target: Project) {
         with(target) {
             with(pluginManager) {
-                apply("focpet.android.library")
-                apply("focpet.hilt")
-                apply("focpet.serialization")
+                apply("kindl.android.library")
+                apply("kindl.hilt")
+                apply("kindl.serialization")
             }
             extensions.configure<LibraryExtension> {
                 packaging {

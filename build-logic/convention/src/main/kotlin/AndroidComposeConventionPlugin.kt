@@ -1,6 +1,6 @@
-import com.focpet.buildlogic.androidExtension
-import com.focpet.buildlogic.configureAndroidCompose
-import com.focpet.buildlogic.libs
+import com.kindl.buildlogic.androidExtension
+import com.kindl.buildlogic.configureAndroidCompose
+import com.kindl.buildlogic.libs
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.kotlin.dsl.dependencies

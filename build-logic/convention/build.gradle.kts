@@ -4,7 +4,7 @@ plugins {
     `kotlin-dsl`
 }
 
-group = "com.focpet.buildlogic"
+group = "com.kindl.buildlogic"
 
 java {
     sourceCompatibility = JavaVersion.VERSION_11
@@ -28,52 +28,52 @@ gradlePlugin {
     plugins {
         // app 모듈용
         register("androidApplication") {
-            id = "focpet.android.application"
+            id = "kindl.android.application"
             implementationClass = "AndroidApplicationConventionPlugin"
         }
         // 일반 library용
         register("androidLibrary") {
-            id = "focpet.android.library"
+            id = "kindl.android.library"
             implementationClass = "AndroidLibraryConventionPlugin"
         }
         // BuildConfig library용
         register("androidBuildConfig") {
-            id = "focpet.android.buildconfig"
+            id = "kindl.android.buildconfig"
             implementationClass = "AndroidBuildConfigConventionPlugin"
         }
         // Compose 설정용
         register("androidCompose") {
-            id = "focpet.android.compose"
+            id = "kindl.android.compose"
             implementationClass = "AndroidComposeConventionPlugin"
         }
         // presentation(feature) 모듈용
         register("androidPresentation") {
-            id = "focpet.android.presentation"
+            id = "kindl.android.presentation"
             implementationClass = "AndroidPresentationConventionPlugin"
         }
         // data 모듈용
         register("androidData") {
-            id = "focpet.android.data"
+            id = "kindl.android.data"
             implementationClass = "AndroidDataConventionPlugin"
         }
         // domain 모듈용
         register("kotlinJvm") {
-            id = "focpet.kotlin.jvm"
+            id = "kindl.kotlin.jvm"
             implementationClass = "KotlinJvmConventionPlugin"
         }
         // Hilt 설정용
         register("hilt") {
-            id = "focpet.hilt"
+            id = "kindl.hilt"
             implementationClass = "HiltConventionPlugin"
         }
         // Serialization용
         register("serialization") {
-            id = "focpet.serialization"
+            id = "kindl.serialization"
             implementationClass = "SerializationConventionPlugin"
         }
         // Test 설정용
         register("androidTest") {
-            id = "focpet.android.test"
+            id = "kindl.android.test"
             implementationClass = "AndroidTestConventionPlugin"
         }
     }

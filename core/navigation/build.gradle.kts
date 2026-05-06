@@ -1,7 +1,7 @@
-import com.focpet.buildlogic.setNamespace
+import com.kindl.buildlogic.setNamespace
 
 plugins {
-    alias(libs.plugins.focpet.android.library)
+    alias(libs.plugins.kindl.android.library)
 }
 
 android {
